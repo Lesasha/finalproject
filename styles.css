@@ -49,7 +49,7 @@ body {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: #d90368;
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -57,12 +57,26 @@ body {
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: #2274A5 ;
   }
   
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
+    }
+  }
+  
+  h1{
+    color: #2274A5;
+    background-color: #f75c03;
+  }
+  
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
     }
   }
