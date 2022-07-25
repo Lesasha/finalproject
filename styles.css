@@ -1,68 +1,197 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar navbar-expand-lg navbar-light bg-dark{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+}
+
+.navbar-brand{
+    width: 100px;
+    height: 70px;
     float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  .about-section {
-    padding: 50px;
+    color: orange;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: Arial;
+}
+.collapsenavbar {
+width: 800px;
+float:right;
+height: 80px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family: Arial;
+ }
+ ul li {
+    float:left;
+    margin-top: 62px;
+    margin-left: 100px;
+    font-size: 14px;
+    
+
+ }
+ ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    transition: 0.4ms ease-in-out;
+ }
+
+ ul li a:hover {
+    color: black;
+ }
+
+ .divid{
+    float: left;
+    width: 330px; 
+    margin-left: 270px;
+ }
+
+ .search{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height:30px;
+    border: 1px solid orange;
+    margin-top: 13px;
+border-right: none;
+margin-left: none;
+float: left;
+border-top-left-radius: 5px;
+border-bottom-left-radius:5px ;
+padding: 10px;
+ }
+
+.click{
+   width:25%;
+   height: 30px;
+   background: orange;
+   border:2px solid orange;
+   margin-top: 13px;
+   font-size: 15px;
+   border-bottom-right-radius:5px ;
+   border-top-right-radius: 5px ;
+   color: white;
+}
+
+/* slide images*/ 
+
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-top: 0px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
-  }
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
+    overflow: hidden;
+    float: right;
+    margin-right: 400px;
+    border:2px solid orange;
+    border-bottom-right-radius:5px ;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px;
+border-bottom-left-radius:5px ;
+ }
+    
+  .image-container {
+    width: 2000px;
+    background-color: pink;
+    height: 300px;
     clear: both;
-    display: table;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
   }
-  
-  .title {
-    color: grey;
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
   }
-  
-  .button {
-    border: none;
-    outline: 0;
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
     display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: lightgreen;
+  }
+  /*buttons*/
+  .Alex {
+    float: left;
+    margin-left: 250px ;
+    margin-top: 30px;
+    
+  }
+
+  button {
+    width: 300px;
+    height: 30px;
+    font-family: 'Times New Roman';
+    border: 1px solid orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border-top-right-radius: 5px ;
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    transition: 0.4ms ease-in-out;
   }
   
-  .button:hover {
-    background-color: #555;
+  button:hover {
+    color:black
   }
+
+  /*collapsible*/
+
+ .jax{
+    width: 1200px;
+    margin-top: 350px;
+    margin-left: 250px ;
+    position: relative;
+
+ }
+ /* celander */
+ .mo{
+    float:right;
+    margin-right: 10px;
+    
+ }
+ table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+   float:right;
+   width: 25%;
+
+    
+}
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+th,
+td {
+    font-weight: bold;
+}

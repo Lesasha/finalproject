@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="post.css">
+    <title>Document</title>
+
+</head>
+<nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><strong>Let's Link Up<strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Home Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="post.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="eventsGSCD.html">Events</a>
+        </li>
+        
+      
+    </div>
+  </div>
+</nav>
+<body>
+    <h1> EVENT PAGE</h1>
+    <button type="button" class="collapsible">Yoga on the water!</button>
+    <div class="content">
+      <p>Join Cathy Valentine Yoga for an evening Yoga gathering held at the most magical and relaxing time of the day - sunset. Two Yoga sessions will be held by the waters edge at the Second Wind Retreat Space located on beautiful Cobb Island in Southern MD. Join Cathy Valentine Yoga for an evening Yoga gathering held at the most magical and relaxing time of the day - sunset. Two Yoga sessions will be held by the waters edge at the Second Wind Retreat Space located on beautiful Cobb Island in Southern MD.
+
+        The Golden Hour is the hour just before the sun sets in the sky. There's no denying the brilliance of this special window of the day as everything in nature is bathed in a golden light. As the sun sets, we'll practice the GOLDEN SEED SEQUENCE. This sequence brings a connection to the glowing warmth of our own internal setting sun and a remembrance of the abundance of energy we have that is self contained and never depleted. A GOLDEN THREAD MEDITATION ends this sequence allowing for quiet time to tap into the powerful energy of gratitude - honoring the end of the day and the promise of deep rest to come. In a FLOATING LANTERN CEREMONY, everyone will receive a golden lantern to release any fears, problems or worries of the day.
+        
+        Just after the sun disappears from the sky, the Blue Hour has arrived. The sky overhead takes on a deep blue color and the landscape is suffused with bluish light that feels dreamy and nostalgic. It's the time of the day when the hustle has ended and the promise of what the night brings is vivid and alive. We'll practice a BLUE MAGIC SEQUENCE honoring this in-between time, which holds the promise of “everything is possible”. The focus of this slow Yoga flow will center around the 5th Chakra (energy center) related to creativity and communication. As twilight approaches, we'll open our inner ear and practice deep listening that allows for insight and inner guidance to be communicated. A CANDLE GAZING MEDITATION will end the practice as night falls.
+        
+        Dress color theme: Gold or blue and gold.. All levels welcome. Appetizers and light snacks provided. All Yoga sessions are held outdoors. Please bring your own Yoga mat and props as needed. Slip on shoes recommended.
+        </p>
+    </div>
+  
+    <button type="button" class="collapsible">Event Information</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">Invitees</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">Host Information</button>
+    <div class="content">
+        <img src="https://images.pexels.com/photos/1525852/pexels-photo-1525852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Male yoga sitting">
+      <p>Rob James of Yoga Retreat</p>
+    </div>
+    
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+</body>
+</html>

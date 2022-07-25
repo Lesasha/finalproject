@@ -6,89 +6,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
-<nav class="navbar navbar-expand-lg bg-warning">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Social Media Site</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="https://usa.generation.org" target="_blank">Home Page</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=https://www.codecademy.com/learn" target="_blank">About Us</a>
-        </li>
-        
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapsenavbar">
+          <ul>
+            <li>
+              <a  href="#">Home </a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a  href="#">Disabled</a>
+            </li>
+          </ul>
+          </div>
+
+          <div>
+          <form class="divid">
+            <input class="search" type="search" placeholder="Search" aria-label="Search">
+            <button class="click" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+<br>
+<br>
+<br>
+<div class="slider">
+    <span id="slide-1"></span>
+    <span id="slide-2"></span>
+    <span id="slide-3"></span>
+    <div class="image-container">
+      <img src="image1.jpg" class="slide" width="500" height="300" />
+      <img src="image2.jpg" class="slide" width="500" height="300" />
+      <img src="image3.jpg" class="slide" width="500" height="300" />
+    </div>
+    <div class="buttons">
+      <a href="#slide-1"></a>
+      <a href="#slide-2"></a>
+      <a href="#slide-3"></a>
     </div>
   </div>
-</nav>
+  <div class="Alex">
+    <button type="button">Click Me!</button><br><br><br>
+    <button type="button">Click Me!</button><br><br><br>
+    <button type="button">Click Me!</button><br><br><br>
+    <button type="button">Click Me!</button><br><br><br>
+  </div>
 
-<body>
 
-    <div class="about-section">
-        <h1>About Us Page</h1>
-        <p>The Squad</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    
+  
+  <!--collapse-->
+  <div Class="jax" >
+  <button type="button">Open Collapsible</button>
+  <div class="content">
+    <p>Lorem ipsum...</p>
+  </div>
+  <button type="button">Open Collapsible</button>
+  <div class="content">
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <button type="button">Open Collapsible</button>
+  <div class="content">
+    <p>Lorem ipsum...</p>
+  </div>
+ 
+ 
+  <!--celander-->
+  <div class="mo">
+  
+ <h2 align="center">
+    January 2022
+</h2>
+
+
+<table bgcolor="lightgrey" align="center" 
+    cellspacing="22" cellpadding="22">
+
+    
+
+    <caption align="top">
         
-      </div>
-      
-      <h2 style="text-align:center">Our Team</h2>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="/w3images/team1.jpg" alt="Gregory" style="width:100%">
-            <div class="container">
-              <h2>Gregory Sims</h2>
-              <p class="title">CEO & Founder</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>jane@example.com</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="column">
-          <div class="card">
-            <img src="images/lay.jpeg" alt="Lesasha" style="width:100%">
-            <div class="container">
-              <h2>Le'Sasha Stinson</h2>
-              <p class="title">Java Full Stack Developer</p>
-              <p>Le'Sasha is a Chicago Native and now a resident of The Greater Dallas Area. She Graduated from Northeastern Illinois University with a BA in Communications and later graduated from the renowned Generation USA, class of 09/22 as a Java full stack developer. She enjoys traveling and trying new foods.</p>
-             <p><button class="button">Contact</button></p>
-              
-            </div>
-          </div>
-        </div>
-      
-        <div class="column">
-          <div class="card">
-            <img src="images\IMG20220621204513.jpg" alt="Rosalyn" style="width:100%">
-            <div class="container">
-              <h2>Rosalyn Carter-Pierre</h2>
-              <p class="title">Full Stack Java Junior Developer</p>
-              <p>Generation USA Student</p>
-              <p>
-                <input type="button" onclick="location.href='https://www.linkedin.com/in/rosalyn-carter-pierre/';" value="Contact" />
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </caption>
 
-         <div class="column">
-        <div class="card">
-          <img src="images/FA.png" alt="Fakhri" style="width:100%">
-          <div class="container">
-            <h2>Fakhri Aladhami</h2>
-            <p class="title"> Web Developer</p>
-            <p> My name is Fakhri Aladhami. Iam a proven organized and detail-­oriented computer programmer with two years of experience in front-end development, with knowledge of requirements gathering, database design, application design and development, implementation, testing, training, and user support.
-              <p>Fakhri.Aladhami@yahoo.com</p> 
-            <p><button class="button" >Contact</button></p>
+    
+    <thead>
+        <tr>
+           
+            <th style="color: white; background: purple;">
+                Sun</th>
+            <th style="color: white; background: purple;">
+                Mon</th>
+            <th style="color: white; background: purple;">
+                Tue</th>
+            <th style="color: white; background: purple;">
+                Wed</th>
+            <th style="color: white; background: purple;">
+                Thu</th>
+            <th style="color: white; background: purple;">
+                Fri</th>
+            <th style="color: white; background: purple;">
+                Sat</th>
+        </tr>
+    </thead>
 
-          </div>
-        </div>
-      </div>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </div>
+  
+</div>
+
+</body>
+</html>
