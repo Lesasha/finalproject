@@ -21,3 +21,45 @@
     right: 4rem;
     background-color: blue;
 }
+
+
+/*Navbar*/
+.navbar{
+    padding: 30px;
+    background-color: rgb(76, 0, 255) !important;
+  }
+  .bgcolor{
+    background: lightblue;
+    transition: all 1s;
+}
+  .navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:white !important;
+    background-color: rgb(76, 0, 255) !important;
+  }
+
+  .navbar-nav{
+    padding-left: 300px;
+
+  }
+  .nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: white !important;
+    margin-left: 5px;
+    transition: o.6ms;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  .nav-link:hover{
+    transform: translateY(-20px);
+    background: orangered;
+  }
+
+  .events {
+    margin: 200px;
+  }
