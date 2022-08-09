@@ -1,0 +1,150 @@
+/*style for about us page /our info*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+
+  /* nav bar*/
+.navbar{
+    padding: 30px;
+   
+  }
+  .bgcolor{
+    background: lightblue;
+    transition: all 1s;
+  }
+  .navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:white !important;
+    
+  }
+  .navbar-nav{
+    padding-left: 300px;
+  
+  }
+  .nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: white !important;
+    margin-left: 5px;
+    transition: o.6ms;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  .nav-link:hover{
+    transform: translateY(-20px);
+    background: orangered;
+  }
+  /*header*/
+  .header{
+    margin: 0;
+    padding: 0;
+  }
+  .header .image-Parent{
+    position: relative;
+  }
+  .header img{
+    height:100vh;
+    width:100%;
+  }
+  
+  .header.img-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index:1 ;
+    opacity: 0.4;
+  }
+  
+  
+  /*content-Header*/
+  .header .img-content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    color: white !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  
+  .header .img-content h2 {
+    font-weight: bold;
+    font-style:italic ;
+    font-size: 50px;
+    margin-bottom: 20px !important;
+  }
