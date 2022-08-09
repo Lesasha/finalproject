@@ -1,0 +1,117 @@
+
+  .navbar{
+    padding: 30px;
+   
+  }
+  .bgcolor{
+    background: lightblue;
+    transition: all 1s;
+}
+  .navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:white !important;
+    
+  }
+  .navbar-nav{
+    padding-left: 300px;
+
+  }
+  .nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: white !important;
+    margin-left: 5px;
+    transition: o.6ms;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  .nav-link:hover{
+    transform: translateY(-20px);
+    background: orangered;
+  }
+  /*header*/
+  .header{
+    margin: 0;
+    padding: 0;
+  }
+  .header .image-Parent{
+    position: relative;
+  }
+  .header img{
+    height:100vh;
+    width:100%;
+  }
+
+  .header.img-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index:1 ;
+    opacity: 0.4;
+  }
+  
+
+/*content-Header*/
+.header .img-content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    color: white !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.header .img-content h2 {
+    font-weight: bold;
+    font-style:italic ;
+    font-size: 50px;
+    margin-bottom: 20px !important;
+}
+
+  /*Event Star*/
+  
+  .event{
+  margin:200px auto;
+}
+ 
+ .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+ }
+
+ .card{
+    width: 270px;
+    height: 340px;
+    margin: 20px;
+    border-radius: 15px;
+ }
+
+ .imgclass{
+
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border-top: 15px;
+    text-align: center;
+   
+    
+ }
+ .card:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    transition: all 1s;
+ }
+
+ 
