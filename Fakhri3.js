@@ -11,6 +11,7 @@ if(navbar < 150){
 window.addEventListener('scroll',changebar)
 
 /*Post container*/
+
 const post1 = {
     id: 1,
     name: 'My first post',
@@ -94,5 +95,29 @@ description: 'This is my second post',
 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
 host: 'Andres Lowles',
 eventDate: '2020-09-20'
+ 
 
 }
+/*to write to local storage these 10 post*/
+
+function loadstoragesampledata() {
+        const storageItems = localStorage.getItem("items")
+        if (!storageItems) {
+            const sampleItems = [post1,post2,post3,post4,post5,post6,post7,post8,post9,post10];
+            localStorage.setItem("items", JSON.stringify(sampleItems));
+        } 
+    /*Modify the ItemsController so it loads the data from the storage implementing a new function items.js*/
+    function  loadItemsFromLocalStorage() {
+        const storageItems = localStorage.getItem("items")
+         if (storageItems) {
+            const items = JSON.parse(storageItems)
+    }
+        
+    /*Implement a new function in the items.js that loads the items from the ItemsController using the function you already implemented addItemCard(item).*/
+        function 
+        
+  
+
+
+
+    
