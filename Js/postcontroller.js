@@ -19,13 +19,16 @@ class PostsController {
 
         // Push the item to the items property
         this.posts.push(posts);
+
+        //Save items to local storage
+        localStorage.setPost("posts", JSON.stringify(this.posts));
     }
 }
 const post1 = {
     id: 1,
     name: 'My first post',
     description: 'This is my first post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
@@ -34,7 +37,7 @@ const post2 = {
     id: 2,
     name: 'My second post',
     description: 'This is my second post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
@@ -42,7 +45,7 @@ const post3 = {
     id: 3,
     name: 'My first post',
     description: 'This is my first post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
@@ -51,7 +54,7 @@ const post4 = {
     id: 4,
     name: 'My second post',
     description: 'This is my second post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
@@ -59,7 +62,7 @@ const post5 = {
     id: 5,
     name: 'My first post',
     description: 'This is my first post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
@@ -68,7 +71,9 @@ const post6 = {
     id: 6,
     name: 'My second post',
     description: 'This is my second post',
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Post-greenland-uummannaq.jpg/1200px-Post-greenland-uummannaq.jpg",
     host: 'Andres Lowles',
     eventDate: '2020-09-20'
 };
+console.log(posts);
+
