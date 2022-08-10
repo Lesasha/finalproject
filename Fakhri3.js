@@ -12,6 +12,15 @@ window.addEventListener('scroll',changebar)
 
 /*Post container*/
 
+functiom addItemCard(item)  = document.getElementByid('list-items')
+const Fakhri items = [ 
+    <'div class="card" id="10">
+        <img src="pexels-piccinng-3075993.jpg" alt="">
+        <div class="imgclass">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>']
+
 
 const post1 = {
     id: 1,
@@ -114,7 +123,7 @@ function loadstoragesampledata() {
             const items = JSON.parse(storageItems)
     }
         
-    /*Implement a new function in the items.js that loads the items from the ItemsController using the function you already implemented addItemCard(item).*/
+
         
         
   
