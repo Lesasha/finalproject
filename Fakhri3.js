@@ -12,6 +12,7 @@ window.addEventListener('scroll',changebar)
 
 /*Post container*/
 
+
 const post1 = {
     id: 1,
     name: 'My first post',
@@ -114,7 +115,7 @@ function loadstoragesampledata() {
     }
         
     /*Implement a new function in the items.js that loads the items from the ItemsController using the function you already implemented addItemCard(item).*/
-        function 
+        
         
   
 
