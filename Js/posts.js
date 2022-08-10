@@ -1,7 +1,7 @@
 const postsController = new postsController(0);
 
 
-function addPostCard(item){
+function addPostCard(post){
     const postHTML = '<div class="card" style="width: 20rem;">\n' +
         '    <img src="'+post.img +'" width="300" height="250"  alt="post image">\n' +
         '    <div class="card-body">\n' +
