@@ -23,13 +23,13 @@ function loadStorageSampleData(){
         {'name':'Yoga Class',
         'img':'https://s3-ap-southeast-1.amazonaws.com/www8.fairprice.com.sg/fpol/media/images/product/XL/13086598_LXL1.jpg',
         'description':'Hot Yoga Class with goats'}];
-        localStorage.setPost("items", JSON.stringify(samplePosts));
+        localStorage.setPost("posts", JSON.stringify(samplePosts));
     }
 }
 
 function loadCardsListFromPostsController(){
     for(var i = 0, size = postsController.posts.length; i < size ; i++){
-        const item = postsController.items[i];
+        const post = postsController.posts[i];
         addItemCard(post);
     }
 }
