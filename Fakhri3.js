@@ -12,16 +12,17 @@ window.addEventListener('scroll',changebar)
 
 /*Post container*/
 
-functiom addItemCard(item)  = document.getElementByid('list-items')
-const Fakhri items = [ 
+functiom addItemCard(item){
+const itemsHTML = 
     <'div class="card" id="10">
         <img src="pexels-piccinng-3075993.jpg" alt="">
         <div class="imgclass">
           <h4><b>John Doe</b></h4>
           <p>Architect & Engineer</p>
-        </div>']
-
-
+        </div>'
+ const itemsContainer = document.getElementByid('list-items')
+ itemsContainer.innerHTML +=  itemHTML
+}
 const post1 = {
     id: 1,
     name: 'My first post',
