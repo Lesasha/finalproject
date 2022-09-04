@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0%;
     padding: 0%;
 }
@@ -83,7 +83,7 @@ padding: 10px;
    color: white;
 }
 
-/* slide images*/ 
+/* slide images
 
 .slider {
     width: 500px;
@@ -139,7 +139,7 @@ border-bottom-left-radius:5px ;
     border-radius: 50px;
     background-color: lightgreen;
   }
-  /*buttons*/
+  /*buttons
   .Alex {
     float: left;
     margin-left: 250px ;
@@ -166,7 +166,7 @@ border-bottom-left-radius:5px ;
     color:black
   }
 
-  /*collapsible*/
+  /*collapsible
 
  .jax{
     width: 1200px;
@@ -175,7 +175,7 @@ border-bottom-left-radius:5px ;
     position: relative;
 
  }
- /* celander */
+ /* celander 
  .mo{
     float:right;
     margin-right: 10px;
@@ -194,6 +194,44 @@ border-bottom-left-radius:5px ;
 th,
 td {
     font-weight: bold;
+}*/
+
+/*start navbar*/
+navbar{
+  background: lightblue !important;
+  padding: 30px;
 }
+.bgcolor{
+  background: lightblue;
+  transition: all 2s;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color:white !important;
+}
+.navbar-nav{
+  padding-left: 300px;
+}
+.nav-link{
+  font-weight: bold;
+  font-style: italic;
+  color: white !important;
+  margin-left: 5px;
+  transition: o.6ms;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+.nav-link:hover{
+  transform: translateY(-20px);
+  background: orangered;
+}
+.nav{
+  margin: 200px;
+}
+/*end of navbar*/
 
 
