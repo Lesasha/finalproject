@@ -1,15 +1,11 @@
-function changebar(){
-  var navbar= document.getElementById('navbar');
-  var barvalue= window.scrollY;
-  if(navbar < 150){
-    navbar.classList.remove('bgcolor');
-  }else{
-    navbar.classList.add('bgcolor');
+$(window).on("scroll", function() {
+  if($(window).scrollTop()) {
+       $('nav').addClass('bgcolor');
   }
-}
-
-window.addEventListener('scroll',changebar);
-
+  else {
+        $('nav').removeClass('bgcolor');
+  }
+})
 
 // // Get the modal
 // //var modal = document.getElementById("myModal");
