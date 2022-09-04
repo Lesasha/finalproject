@@ -131,7 +131,8 @@ body {
 /*Nav bar*/ 
 .navbar{
   padding: 30px;
-  
+  background-color: lightblue;
+
 }
 .bgcolor{
   background: lightblue;
