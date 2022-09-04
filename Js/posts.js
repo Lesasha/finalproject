@@ -37,3 +37,11 @@ function loadCardsListFromPostsController(){
 loadStorageSampleData();
 postsController.loadPostsFromLocalStorage();
 loadCardsListFromPostsController();
+$(window).on("scroll", function() {
+    if($(window).scrollTop()) {
+         $('nav').addClass('bgcolor');
+    }
+    else {
+          $('nav').removeClass('bgcolor');
+    }
+})
