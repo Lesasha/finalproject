@@ -26,11 +26,12 @@
 /*Navbar*/
 
 .navbar{
+  position: relative;
   padding: 30px;
 }
-.bgcolor {
-  background: lightblue;
-  transition: all 2s;
+
+.navbar-light {
+background-color: lightblue;
 }
 .navbar-brand{
   font-weight: bold;
