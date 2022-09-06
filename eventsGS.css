@@ -101,6 +101,11 @@ background-color: lightblue;
    /* SECTION FOR MODAL */
 /* The Modal (background)*/
 
+  .modal-title {
+    color: lightblue;
+
+  }
+
   modal {
   display: none;
   position: fixed;
