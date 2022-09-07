@@ -1,3 +1,4 @@
+/*navbar*/
 .navbar{
     padding: 30px;
     background-color: lightblue !important;
@@ -33,4 +34,41 @@
   .nav-link:hover{
     transform: translateY(-20px);
     background: orangered;
+  }
+
+
+  /*row of cards*/
+  .card {
+  
+    width: 20%;
+    height: 320px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  .card:hover {
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+    transition: all 1s;
+  }
+  
+  .container{
+    width: 100%;
+    height: auto;
+    display:flex
+  
+    
+  
+  }
+  
+  
+  .imgsize{
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    background-size: cover;
+    
+  
   }
