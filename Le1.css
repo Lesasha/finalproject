@@ -2,13 +2,13 @@
 .navbar{
     padding: 30px;
     background-color: lightblue !important;
-   
+
   }
-  .bicolor{
+.bicolor{
     background: lightblue;
     transition: all 2s;
 }
-  .navbar-brand{
+.navbar-brand{
     font-weight: bold;
     font-style: italic;
     font-size: 50px;
@@ -17,12 +17,12 @@
     color:white !important;
     
   }
-  .navbar-nav{
+.navbar-nav{
     padding-left: 300px;
     
 
   }
-  .nav-link{
+.nav-link{
     font-weight: bold;
     font-style: italic;
     color: white !important;
@@ -31,20 +31,19 @@
     border-radius: 20px;
     text-transform: capitalize;
   }
-  .nav-link:hover{
+.nav-link:hover{
     transform: translateY(-20px);
     background: orangered;
   }
 
   /* space */
-  .space{
+.space{
     margin: 200px;
   }
 
 
   /* cards */
- 
- .card {
+.card {
   
   width: 20%;
   height: 320px;
