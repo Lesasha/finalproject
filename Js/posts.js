@@ -45,3 +45,7 @@ $(window).on("scroll", function() {
           $('nav').removeClass('bgcolor');
     }
 })
+// like and dislike for attending or not attending
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+  }

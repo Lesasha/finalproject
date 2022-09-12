@@ -29,7 +29,12 @@ body {
     background-color: black;
     color: white;
   }
-  
+  .right-sidebar {
+    background:lightblue;
+}
+.left-sidebar {
+    background: lightgrey;
+}
   .container {
     padding: 0 16px;
   }
@@ -53,7 +58,7 @@ body {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 75%;
   }
   
   .button:hover {
@@ -130,11 +135,19 @@ body {
   
 /*Nav bar*/ 
 .navbar{
-  padding: 30px;
+  padding: 1px;
   background-color: lightblue;
 
 }
 
+<<<<<<< HEAD
+=======
+}
+.resize{
+  height: 100%;
+  width: 100%;
+}
+>>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
 .navbar-brand{
   font-weight: bold;
   font-style: italic;
@@ -177,6 +190,7 @@ body {
     font-size: 50px;
     margin-bottom: 20px !important;
 }
+
 
   /*Event Star*/
   
