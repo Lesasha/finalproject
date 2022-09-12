@@ -1,9 +1,9 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
-         $('nav').addClass('bgcolor');
+         $('nav').addClass('bicolor');
     }
 
     else {
-          $('nav').removeClass('bgcolor');
+          $('nav').removeClass('bicolor');
     }
 })

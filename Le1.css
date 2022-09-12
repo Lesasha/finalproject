@@ -4,10 +4,7 @@
     background-color: lightblue !important;
    
   }
-  .bgcolor{
-    background: lightblue;
-    transition: all 2s;
-}
+
   .navbar-brand{
     font-weight: bold;
     font-style: italic;
@@ -18,7 +15,7 @@
     
   }
   .navbar-nav{
-    padding-left: 300px;
+    padding-left: 430px;
     
 
   }
@@ -36,39 +33,45 @@
     background: orangered;
   }
 
+  /* space */
+  .space{
+    margin: 200px;
+  }
 
-  /*row of cards*/
-  .card {
+
+  /* cards */
+ 
+ .card {
   
-    width: 20%;
-    height: 320px;
-    border-radius: 15px;
-    text-align: center;
-    margin: 20px;
-  }
+  width: 20%;
+  height: 320px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px;
+}
+
+
+.card:hover {
+  background-color: grey;
+  cursor: pointer;
+  color: white;
+  transition: all 1s;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display:flex
+
   
+
+}
+
+
+.imgsize{
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px ;
+  background-size: cover;
   
-  .card:hover {
-    background-color: grey;
-    cursor: pointer;
-    color: white;
-    transition: all 1s;
-  }
-  
-  .container{
-    width: 100%;
-    height: auto;
-    display:flex
-  
-    
-  
-  }
-  
-  
-  .imgsize{
-    border-top-left-radius: 15px ;
-    border-top-right-radius: 15px ;
-    background-size: cover;
-    
-  
-  }
+
+}

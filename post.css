@@ -134,11 +134,7 @@ body {
   background-color: lightblue;
 
 }
-.bgcolor{
-  background: lightblue;
-  transition: all 2s;
 
-}
 .navbar-brand{
   font-weight: bold;
   font-style: italic;
@@ -148,7 +144,7 @@ body {
   color:white !important;
 }
 .navbar-nav{
-  padding-left: 300px;
+  padding-left: 390px;
 }
 .nav-link{
   font-weight: bold;
