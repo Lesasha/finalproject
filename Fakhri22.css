@@ -1,6 +1,6 @@
 .navbar{
     padding: 30px;
-    background-color: lightblue;
+   
   }
   .bgcolor{
     background: lightblue;
@@ -133,4 +133,7 @@ button{
   background-size: cover;
   
 
+}
+.colordate{
+color:red;
 }
