@@ -4,16 +4,10 @@
     background-color: lightblue !important;
 
   }
-<<<<<<< HEAD
 
-  .navbar-brand{
-=======
-.bicolor{
-    background: lightblue;
-    transition: all 2s;
-}
+
 .navbar-brand{
->>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
+
     font-weight: bold;
     font-style: italic;
     font-size: 50px;
@@ -22,16 +16,15 @@
     color:white !important;
     
   }
-<<<<<<< HEAD
+
   .navbar-nav{
     padding-left: 430px;
-=======
-.navbar-nav{
-    padding-left: 300px;
->>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
+  }
+
+    
     
 
-  }
+
 .nav-link{
     font-weight: bold;
     font-style: italic;
@@ -47,22 +40,19 @@
   }
 
   /* space */
-<<<<<<< HEAD
+
   .space{
-=======
-.space{
->>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
+
+
     margin: 200px;
   }
 
 
   /* cards */
-<<<<<<< HEAD
+
  
  .card {
-=======
-.card {
->>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
+
   
   width: 20%;
   height: 320px;
@@ -93,10 +83,6 @@
   border-top-left-radius: 15px ;
   border-top-right-radius: 15px ;
   background-size: cover;
-  
+}
 
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 70d2e094e99e64dd328eabb544b42241955b6999
+
