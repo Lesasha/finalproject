@@ -5,9 +5,12 @@
 
   }
 
-
+  .navbar-brand{
+.bicolor{
+    background: lightblue;
+    transition: all 2s;
+}
 .navbar-brand{
-
     font-weight: bold;
     font-style: italic;
     font-size: 50px;
@@ -16,15 +19,11 @@
     color:white !important;
     
   }
+.navbar-nav{
+    padding-left: 300px;
+    
 
-  .navbar-nav{
-    padding-left: 430px;
   }
-
-    
-    
-
-
 .nav-link{
     font-weight: bold;
     font-style: italic;
@@ -40,19 +39,13 @@
   }
 
   /* space */
-
-  .space{
-
-
+.space{
     margin: 200px;
   }
 
 
   /* cards */
-
- 
- .card {
-
+.card {
   
   width: 20%;
   height: 320px;
