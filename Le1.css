@@ -7,6 +7,7 @@
 
 .navbar-brand{
 .bicolor
+
     background: lightblue;
     transition: all 2s;
 }
@@ -21,7 +22,7 @@
     
   }
 .navbar-nav{
-    padding-left: 300px;
+    padding-left: 500px;
     
 
   }
@@ -77,6 +78,4 @@
   border-top-left-radius: 15px ;
   border-top-right-radius: 15px ;
   background-size: cover;
-  
-
 }
