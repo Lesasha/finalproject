@@ -290,8 +290,12 @@ background-color: blue;
 /*Navbar*/
 
 .navbar{
-position: relative;
-padding: 30px;
+padding: 50px!important;
+}
+
+.bgcolor{
+  background: lightblue;
+  transition: all 2s;
 }
 .navbar-light {
 background-color: lightblue;
@@ -305,7 +309,7 @@ letter-spacing: 2px;
 color:white !important;
 }
 .navbar-nav{
-padding-left: 300px;
+padding-left: 550px;
 }
 .nav-link{
 font-weight: bold;

@@ -7,6 +7,16 @@ $(window).on("scroll", function() {
   }
 })
 
+
+
+function singlepage(singlee){
+  if(singlee.classList.contains ("single")){
+    location.href = "Fakhri11.html"
+  }
+}
+
+
+
 // // Get the modal
 // //var modal = document.getElementById("myModal");
 
